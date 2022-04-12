@@ -18,11 +18,6 @@
       </div>
     </div>
   </div>
-  <div class="footer">
-    <footer class="site-footer navbar-dark bg-dark">
-      <a href="https://github.com/paolopoemape/grocery-store-project">Github Link</a><i class="fab fa-github"></i>
-    </footer>
-  </div>
 </div>
 </template>
 
