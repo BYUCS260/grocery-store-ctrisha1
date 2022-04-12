@@ -1,13 +1,17 @@
 import Vue from 'vue'
+import mock from './mock-data.js'
 import App from './App.vue'
 import router from './router'
-import mock from './mock-data.js'
 
 Vue.config.productionTip = false
+export const eventBus = new Vue();
 
 let data = {
   products: mock,
-  cart: []
+  cart: [],
+  clicks: 0,
+  id:'',
+  arr: {}
 }
 
 new Vue({
